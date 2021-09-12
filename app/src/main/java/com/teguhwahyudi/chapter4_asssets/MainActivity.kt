@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var imageView = findViewById<ImageView>(R.id.ivRocket)
+        val imageView = findViewById<ImageView>(R.id.ivRocket)
         val fileName = "rocket.png"
         imageView.setImageAssets(applicationContext,fileName)
     }
